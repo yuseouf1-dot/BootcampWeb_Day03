@@ -1,3 +1,7 @@
+.blue, .green, .yellow, .red {
+    height: 80px; 
+}
+
 .blue{
     background-color: #67B3DD;
 }
@@ -17,6 +21,12 @@ body{
 
 @media (max-width: 767px){
     body{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    section{
         display: flex;
         flex-direction: column;
         gap: 10px;
