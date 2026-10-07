@@ -1,0 +1,28 @@
+.blue{
+    background-color: #67B3DD;
+}
+.green{
+    background-color: #9EE062;
+}
+.yellow{
+    background-color: #FEDF6B;
+}
+.red{
+    background-color: #FC302D;
+}
+
+body{
+    margin: 0;
+}
+
+@media (max-width: 767px){
+    body{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hide{
+        display: none;
+    }
+}
