@@ -1,0 +1,74 @@
+.green, .yellow, .purple {
+    height: 150px; 
+}
+
+.blue{
+    background-color: #67B3DD;
+    height: 50px;
+}
+.green{
+    background-color: #9EE062;
+}
+.yellow{
+    background-color: #FEDF6B;
+}
+.red{
+    background-color: #FC302D;
+    height: 50px;
+}
+.purple{
+    background-color: #6B2683;
+}
+
+body{
+    margin: 0;
+}
+
+@media (max-width: 767px){
+    body{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .purple{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    header{
+        width: calc(50% - 5px);
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    section article {
+        width: calc(50% - 5px); 
+    }
+
+    .hide{
+        display: none;
+    }
+}
