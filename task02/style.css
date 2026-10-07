@@ -1,9 +1,10 @@
-.blue, .green, .yellow, .red {
-    height: 80px; 
+.green, .yellow{
+    height: 100px; 
 }
 
 .blue{
     background-color: #67B3DD;
+    height: 50px;
 }
 .green{
     background-color: #9EE062;
@@ -13,6 +14,7 @@
 }
 .red{
     background-color: #FC302D;
+    height: 50px;
 }
 
 body{
